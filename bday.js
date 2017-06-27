@@ -6,10 +6,11 @@
     script.onload = function() {
         var $ = window.jQuery;
         // Use $ here...
+        $(document).ready(function(){
+          alert("HELLO");
+        });
+
     };
     document.getElementsByTagName("head")[0].appendChild(script);
 })();
 
-$(document).ready(function(){
-  alert("HELLO");
-});
