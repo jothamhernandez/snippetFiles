@@ -1,0 +1,58 @@
+@keyframes changeColor {
+	0%{
+		color: red;
+	}
+	15%{
+		color: orange;
+	}
+	30%{
+		color: yellow;
+	}
+	45%{
+		color: green;
+	}
+	60% {
+		color: indigo;
+	}
+	75%{
+		color: blue;
+	}
+	90%{
+		color: violet;
+	}
+	100%{
+		color:red;
+	}
+}
+
+@keyframes leftRightMove{
+ 	0%{
+		left: 0px;
+ 	}
+ 	50%{
+ 		left: 35%;
+ 	}
+ 	100% {
+ 		left: 0px;
+ 	}
+}
+
+span.MY_GREETING{
+	text-align: left;
+	position: relative;
+	animation: changeColor 1s linear infinite, leftRightMove 5s ease-in-out infinite;
+	color: black;
+	font-size: 200%;
+	font-weight: bold;
+	margin: auto;
+}
+
+span.MY_GREETING2{
+	text-align: left;
+	position: relative;
+	animation: changeColor 1s linear infinite, leftRightMove 5s ease-in-out infinite;
+	color: black;
+	font-size: 150%;
+	font-weight: bold;
+	margin: auto;
+}
