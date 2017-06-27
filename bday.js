@@ -12,7 +12,7 @@
         // Use $ here...
         $(document).ready(function(){
           $.ajax({
-            url: "message.json",
+            url: "https://cdn.rawgit.com/jothamhernandez/snippetFiles/master/message.json",
             method: "GET",
             dataType: "JSON",
             success: function(data){
