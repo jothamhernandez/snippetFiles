@@ -12,8 +12,9 @@
         height = window.innerHeight;
         target = {x: width/2, y: height/2};
 
-        largeHeader = document.getElementsByTagName('body')[0];
+        largeHeader = document.getElementsByTagName('main')[0];
         largeHeader.style.height = height+'px';
+        console.log(largeHeader);
 
         canvas = document.getElementById('particle-canvas');
         canvas.width = width;
